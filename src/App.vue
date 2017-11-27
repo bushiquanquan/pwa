@@ -110,7 +110,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
 
 @import './assets/styles/global'
 
@@ -126,7 +126,7 @@ body
     color #2c3e50
 </style>
 
-<style lang="stylus" scoped>
+<style lang="stylus" rel="stylesheet/stylus" scoped>
 .app-shell
     position absolute
     top 0
@@ -166,6 +166,9 @@ body
             overflow-y auto
             transition transform 0.4s cubic-bezier(.55, 0, .1, 1)
             background: $material-theme.bg-color
+            background-image: url(../static/img/gongzhu.jpg)
+            background-repeat no-repeat
+            background-size:cover
             color: $material-theme.text-color
             -webkit-overflow-scrolling touch
 

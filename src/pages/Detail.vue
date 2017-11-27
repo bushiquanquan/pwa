@@ -5,7 +5,7 @@
                 <v-flex xs10 offset-xs1>
                     <article class="detail-content text-xs-center">
                         <header class="detail-title text-xs-center">
-                            Detail {{$route.params.id}}
+                            仙女 {{$route.params.id}}
                         </header>
                         <router-link :to="{
                             name: 'detail',
@@ -13,7 +13,7 @@
                                 id: Number($route.params.id) + 1
                             }
                         }">
-                            Detail {{Number($route.params.id) + 1}}
+                            仙女 {{Number($route.params.id) + 1}}
                         </router-link>
                         <p>
                         Progressive Web Apps are user experiences that have the reach of the web, and are:

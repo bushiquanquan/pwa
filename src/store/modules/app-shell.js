@@ -206,18 +206,18 @@ export default {
                         sublistTitle: 'Sublist1',
                         list: [
                             {
-                                text: 'Detail Page 1',
+                                text: '仙女 1',
                                 icon: 'sentiment_satisfied',
                                 route: '/detail/1'
                             },
                             {
-                                text: 'Detail Page 2',
+                                text: '仙女 2',
                                 image: 'https://github.com/google/material-design-icons/blob/master/social/2x_web/ic_mood_bad_black_48dp.png?raw=true',
                                 alt: 'mood-bad',
                                 route: '/detail/2'
                             },
                             {
-                                text: 'Detail Page 3',
+                                text: '仙女 3',
                                 svg: 'svg-sentiment-very-satisfied',
                                 route: '/detail/3'
                             }

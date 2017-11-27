@@ -1,4 +1,4 @@
-# pwaontheway
+# pwaontheway  git clone git@github.com:bushiquanquan/bushiquanquan.github.io.git
 
 > 这是一个 pwa 项目
 
